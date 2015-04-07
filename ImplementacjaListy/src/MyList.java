@@ -121,7 +121,7 @@ public class MyList implements List<Object>{
 
 	@Override
 	public boolean addAll(int index, Collection<? extends Object> c) {
-		// TODO Auto-generated method stub
+		
 		return false;
 	}
 

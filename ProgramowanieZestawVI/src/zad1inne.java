@@ -7,8 +7,8 @@ public class zad1inne {
 		int[] tab=new int[n];
 		int[] C=new int[n];
 		for(int i=0;i<n;i++){
-			tab[i]=(int) (Math.random()*100);
-			C[i]=(int) (Math.random()*100);
+			tab[i]=(int) (Math.random()*10);
+			C[i]=(int) (Math.random()*10);
 		}
 		System.out.println("Tablica C:");
 		System.out.println(Arrays.toString(C));
@@ -36,7 +36,11 @@ public class zad1inne {
 		for(int i=0;i<n;i++){
 			watki3[i]=new Watek3(i,C,tab);
 			watki3[i].start();
+			if(watki3[i].isFirstZero()){
+				break;
+			}
 		}
+		
 		
 		
 		

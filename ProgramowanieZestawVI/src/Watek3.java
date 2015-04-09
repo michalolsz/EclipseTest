@@ -17,5 +17,12 @@ public class Watek3 extends Thread {
 	public void run() {
 		if(tab[(int) getId()]==0) System.out.println("Najmniejsza wartosc to "+C[(int) getId()]);		
 	}
+	public boolean isFirstZero(){
+		if(tab[(int) getId()] == 0){
+		return true;
+		}
+		return false;
+}
+
 
 }

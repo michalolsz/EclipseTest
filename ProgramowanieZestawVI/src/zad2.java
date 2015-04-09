@@ -17,8 +17,6 @@ public class zad2 {
 				}
 			});
 			watek.start();
-			watek.setName(i+"");
-			System.out.println(watek);
 			watek.join();			
 		}
 		

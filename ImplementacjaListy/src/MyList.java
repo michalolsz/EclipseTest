@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 
-import org.junit.Test;
+
 
 public class MyList implements List<Object>{
 
@@ -29,11 +29,7 @@ public class MyList implements List<Object>{
 		} 
         return true;	
 	}
-	@Test public void testAdd()
-	   {
-		assertEquals("Multiplication", 4, 2*2);
-		assertEquals("Multiplication", 5, 2*2);
-	   }
+
 	@Override
 	public void add(int index, Object element) {
 		if(size!=0){
